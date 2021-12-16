@@ -1,0 +1,102 @@
+/* For use on all pages */
+@font-face {
+    font-family: 'lessregular';
+    src: url('less-webfont.woff') format('woff2'),
+         url('less-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lesslight';
+    src: url('less-light-webfont.woff2') format('woff2'),
+         url('less-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#HeaderImage{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.active
+{
+    text-decoration: underline;   
+}
+
+body
+{
+    font-family: less light;
+}
+
+ .active
+{
+    text-decoration: underline;   
+}
+footer{
+    color: white;
+}
+
+/* ########################################################################################
+################################For use on Home Page #####################################*/
+
+    @media (max-width: 599px) { #headerBackground{
+        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Pro2Img2.jpg");
+        background-repeat: no-repeat;
+    } }
+    @media (min-width: 900px) { #headerBackground{
+        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Header.jpg");
+        background-repeat: no-repeat;
+    } }
+    @media (min-width: 1200px) { #headerBackground{
+        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Pro2Img2.jpg");
+        background-repeat: no-repeat;
+    } }
+    @media (min-width: 1800px) {#headerBackground{
+        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Header.jpg");
+        background-repeat: no-repeat;
+    } }
+
+.centreContent{
+    color: white;
+}
+
+/* ########################################################################################
+############################For use on Store Page #####################################*/
+.store-card .card-title{
+    width: 80%;
+    display: inline;
+    font-family: less;
+    font-size: 150%;
+}
+
+.Price{
+    max-width: 20%;
+    text-align: right;
+    float: right;
+    font-weight: bolder;
+}
+
+.addToCart{
+    position: absolute;
+    right: 20px;
+    bottom:   20px;
+}
+
+/* ########################################################################################
+############################For use on Gallery Page #####################################*/
+
+
+
+/* ########################################################################################
+############################For use on Contact Page #####################################*/
+.form-control{
+    border-color: white;
+    border-bottom: solid 2px black;
+    border-radius: 0%;
+}
