@@ -46,19 +46,22 @@ footer{
 ################################For use on Home Page #####################################*/
 
     @media (max-width: 599px) { #headerBackground{
-        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Pro2Img2.jpg");
+        background-image: url(../images/header/Header.jpg);
         background-repeat: no-repeat;
+
     } }
     @media (min-width: 900px) { #headerBackground{
-        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Header.jpg");
+        background-image: url(../images/header/Headerwide.jpg);
         background-repeat: no-repeat;
+
     } }
     @media (min-width: 1200px) { #headerBackground{
-        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Pro2Img2.jpg");
+        background-image: url(../images/header/Headerxwide.jpg);
         background-repeat: no-repeat;
+
     } }
     @media (min-width: 1800px) {#headerBackground{
-        background-image: url("https://raw.githubusercontent.com/PaulMulvaneySligo/KalopsiaDesign/main/images/Header.jpg");
+        background-image: url(../images/header/Headerxxwide.jpg);
         background-repeat: no-repeat;
     } }
 
